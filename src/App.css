@@ -1,0 +1,57 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    scroll-behavior: smooth;
+}
+.flex{
+    display:flex;
+}
+.dice{
+    margin-top:18vh;
+    width:40vw;
+    height:70vh;
+}
+.play{
+    margin-top:30vh;
+    margin-left:10vw;
+}
+.heading{
+    font-size:700%;
+}
+.game{
+    margin-left:20vw;
+    font-size:medium;
+    font-weight: 1000;
+    background-color:black;
+    color:white;
+    width:8vw;
+    height:4vh;
+    padding-top:0.5vh;
+    text-align:center;
+}
+.boxes{
+    border:1px solid black;
+    display:flex;
+    width:5%;
+    height:2.5vw;
+    justify-content: center;
+    align-items:center;
+    margin-right:2%;
+}
+#a0{
+    margin-left: 45vw;
+}
+#a5{
+    margin-right:0px;
+}
+.random{
+    display:flex;
+    justify-content: center;
+    height:82vh;
+}
+.design{
+    background-color: black;
+    color:antiquewhite;
+    margin:0% 45% 1% 40%;
+    padding:2px;
+}
